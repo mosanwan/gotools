@@ -1,3 +1,3 @@
-module GoTools
+module gotools
 
 go 1.22
