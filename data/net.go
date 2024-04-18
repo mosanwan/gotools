@@ -8,6 +8,10 @@ type NetResult struct {
 	Msg     string      `json:"msg,omitempty"`
 }
 
+func NewNetResult() {
+
+}
+
 func (r *NetResult) ToBytes() []byte {
 	marshal, err := json.Marshal(r)
 	if err != nil {
